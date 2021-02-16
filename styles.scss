@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+
+html {
+    font-size:14px;
+}
+
+#filter-input-wrapper {
+    background:rgb(228, 228, 228);
+    padding:2rem 0;
+    display:flex;
+    justify-content: center;
+    .input-block {
+        padding:10px;
+        input[type=checkbox] {
+            -ms-transform: scale(1.3); 
+            -moz-transform: scale(1.3); 
+            -webkit-transform: scale(1.3); 
+            -o-transform: scale(1.3);
+            transform: scale(1.3);
+            padding: 10px;
+        }
+        label {
+            font-size:1.2rem;
+        }
+    }
+}
